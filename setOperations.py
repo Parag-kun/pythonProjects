@@ -3,5 +3,5 @@ set2 = set([1, 2, 3, 4, 5])
 
 print("Union: " + str(set1 | set2))
 print("Intersection: " + str(set1 & set2))
-print("Union: " + str(set1 - set2))
-print("Union: " + str(set1 ^ set2))
+print("Difference: " + str(set1 - set2))
+print("Symmetric difference: " + str(set1 ^ set2))
